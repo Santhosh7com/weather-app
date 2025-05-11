@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: rgb(196, 137, 137);
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.countryname{
+ border-radius: 10px;
+    background-color: rgb(44, 55, 77);
+    width: 350px;
+    padding: 10px;
+}
+#text{
+    height: 30px;
+    margin-left:30px ;
+}
+#submit{
+    height: 30px;
+}
+#cn{
+    margin-left: 10px;
+    color:rgb(236, 8, 27);
+}
+#cname{
+    margin-left: 10px;
+    color: crimson;
+}
+#cc{
+    margin-left: 10px;
+    color: rgb(9, 204, 9);
+}
+@media(max-width:400px){
+    
+
+    .container{
+        
+        width: 350px;
+        height: 400px;
+        font-size: 15px;
+    }
+}
